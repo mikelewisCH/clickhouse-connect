@@ -16,6 +16,13 @@ ClickHouse Connect uses the ClickHouse HTTP interface for maximum compatibility.
 [chDB](https://clickhouse.com/docs/chdb) backend is also available for running queries against an embedded
 in-process engine with `get_client(interface='chdb')`. Install it with `pip install clickhouse-connect[chdb]`.
 
+### Prerequisites
+
+A running ClickHouse server, either:
+
+* **ClickHouse Cloud**: [Sign up](https://console.clickhouse.cloud/signUp?utm_medium=referral&utm_source=github&utm_campaign=readme&utm_content=clickhouse-connect) for a free trial, or sign in to an existing account.
+* **Self-hosted ClickHouse**: [Install](https://clickhouse.com/docs/get-started/setup/install).
+
 ### Installation
 
 ```
